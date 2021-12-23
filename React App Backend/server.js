@@ -14,6 +14,9 @@ const db = knex({
     connection: {
         // host: '127.0.0.1',
         connectionString: process.env.DATABASE_URL,
+        user: 'woncpsmttfxufu',
+        password: '43cd8f32dbfde9494a5f9bbd2d0f3299049d6b0cfe4e856059de0319ac2d742e',
+        database: 'd4pv94cvkltvc3',
         ssl: true,
 
         // user: 'postgres',
